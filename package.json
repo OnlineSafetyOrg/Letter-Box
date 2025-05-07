@@ -1,0 +1,42 @@
+{
+	"name": "@coffeebots/onlinesafety-letterbox",
+	"version": "1.0.0",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/coffeebots/onlinesafety-letterbox.git"
+	},
+	"bugs": {
+		"url": "https://github.com/coffeebots/onlinesafety-letterbox/issues"
+	},
+	"homepage": "https://github.com/coffeebots/onlinesafety-letterbox#readme",
+	"packageManager": "npm@10.8.1",
+	"scripts": {
+		"lint": "turbo run lint && prettier --check-search-dir=. .",
+		"build": "turbo run build",
+		"format": "prettier --write --plugin-search-dir=. .",
+		"prisma": "npx prisma generate",
+		"migrate": "npx prisma migrate dev --name init",
+		"start-bot": "node ./packages/bot/dist/index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^22.9.4",
+		"dotenv-cli": "^7.4.4",
+		"eslint": "^9.15.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"prettier": "^3.3.3",
+		"prisma": "^5.22.0",
+		"turbo": "^2.3.2",
+		"typescript": "^5.7.2"
+	},
+	"dependencies": {
+		"@prisma/client": "^5.22.0",
+		"discord.js": "^14.17.3",
+		"node-cron": "^3.0.3",
+		"openai": "^4.95.1",
+		"winston": "^3.17.0"
+	}
+}

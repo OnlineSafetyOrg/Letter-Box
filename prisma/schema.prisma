@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model AnonymousLetter {
+  id              String    @id @default(auto()) @map("_id") @db.ObjectId // MongoDB ID
+  userId          String
+  messageId       String
+  message         String
+  response        String?   @default("No Response")
+  createdAt       DateTime  @default(now())
+  respondedAt     DateTime?
+  sweetReactors   String[]
+  curiousReactors String[]
+  flagged         Boolean   @default(false)
+}
+
+model LetterReplyFeedback {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId    String
+  messageId String
+  type      String
+  createdAt DateTime @default(now())
+}
