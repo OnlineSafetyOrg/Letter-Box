@@ -19,11 +19,3 @@ model AnonymousLetter {
   curiousReactors String[]
   flagged         Boolean   @default(false)
 }
-
-model LetterReplyFeedback {
-  id        String   @id @default(auto()) @map("_id") @db.ObjectId
-  userId    String
-  messageId String
-  type      String
-  createdAt DateTime @default(now())
-}
