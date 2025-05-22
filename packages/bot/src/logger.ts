@@ -51,7 +51,7 @@ export async function logException(interaction: CommandInteraction | null, e: an
 							[
 								`\`🔴\` An unexpected error has occurred`,
 								`Error ID: \`${errorId}\``,
-								`Please report this in the [CoffeeBots Discord](<https://coffeebots.xyz/discord>)`,
+								`Please report this in the [Online Safety Discord](<https://discord.com/invite/P3bfEux5cv>)`,
 							].join('\n'),
 						),
 				],
