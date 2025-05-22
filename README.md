@@ -1,6 +1,7 @@
 # 💌 Letter Box — Anonymous Letter System
 
 [![Join Our Discord](https://img.shields.io/discord/1360001636424093928?label=Join%20Our%20Community&logo=discord&style=flat-square&color=5865F2)](https://discord.com/invite/P3bfEux5cv)
+[![Ko-fi](https://img.shields.io/badge/Support%20Us%20on-Ko--fi-FF5E5B?logo=ko-fi&style=flat-square)](https://ko-fi.com/duckodas)
 
 **Letter Box** is an anonymous letter and reply system built for Discord, created by the **Online Safety** team. It empowers users to submit letters anonymously and receive supportive responses — all while keeping identities strictly confidential.
 
