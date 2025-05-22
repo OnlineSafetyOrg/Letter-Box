@@ -1,5 +1,5 @@
 {
-  "name": "@coffeebots/onlinesafety-letterbox",
+  "name": "@onlinesafetyorg/letterbox",
   "version": "1.0.0",
   "private": true,
   "main": "./dist/index.js",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coffeebots/onlinesafety-letterbox.git"
+    "url": "git+https://github.com/onlinesafetyorg/letterbox.git"
   },
   "bugs": {
-    "url": "https://github.com/coffeebots/onlinesafety-letterbox/issues"
+    "url": "https://github.com/onlinesafetyorg/letterbox/issues"
   },
-  "homepage": "https://github.com/coffeebots/onlinesafety-letterbox#readme",
+  "homepage": "https://github.com/onlinesafetyorg/letterbox#readme",
   "devDependencies": {
     "@types/node": "^20.11.27",
     "prisma": "^5.11.0",
